@@ -122,7 +122,7 @@ header .header-icons-container .menu-navegacion a {
   -ms-grid-columns: 1fr 4fr 1fr;
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
-  background-image: url("../assets/img/cover_img.jpg");
+  background-image: url("../assets/img/cover-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
