@@ -1,0 +1,17 @@
+extends componentes/plantilla.pug
+block contenidos
+    main.blogs-main 
+        section.blogs-news-container 
+            .grid-container.blogs-main-new 
+                .blogs-news-img-container 
+                    img(src="../assets/img/main-news-img.png", alt="")
+                .blogs-news-info-container 
+                    h2 Mis Proyectos 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nulla nesciunt quia animi excepturi adipisci similique, blanditiis eveniet ipsam nisi ducimus culpa iure, harum possimus voluptatibus, necessitatibus repudiandae architecto tenetur!
+        section.blogs-posts-container 
+            .grid-container 
+                h3 Últimos proyectos 
+                hr
+                +post-project("post-1.png","BatataBit","Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum, explicabo ab quas mollitia fugit officia impedit. Sequi quos animi eaque","index.html")
+                +post-project("post-1.png","BatataBit","Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum, explicabo ab quas mollitia fugit officia impedit. Sequi quos animi eaque","index.html")
+                +post-project("post-1.png","BatataBit","Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum, explicabo ab quas mollitia fugit officia impedit. Sequi quos animi eaque","index.html")

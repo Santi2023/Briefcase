@@ -1,0 +1,63 @@
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: $secondary-color;
+    margin-bottom: 50px;
+
+    .profile-container {
+        display: block;
+        align-items: center;
+
+        .profile-img-container {
+            display: flex;
+            justify-content: center;
+            img {
+                max-width: 320px;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .profile-info-container {
+            h2 {
+                font-size: 2.4rem;
+                text-align: center;
+            }
+            p {
+                font-size: 1.6rem;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.profile-main-projects {
+    padding: 0 50px 40px;
+
+    h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .projects-main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+
+        .project-container {
+            padding: 0 10px 10px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a {
+                margin: 15px 0 10px;
+                font-size: 1.6rem;
+                font-weight: 600;
+                text-decoration: underline;
+                color: $variation-color;
+            }
+            p {
+                font-size: 1.6rem;
+                text-align: justify;
+            }
+        }
+    }
+}

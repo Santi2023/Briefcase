@@ -1,0 +1,39 @@
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('/assets/img/cover_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    section {
+        display: grid;
+        grid-column: 2;
+        justify-items: center;
+        height: 350px;
+        margin-top: 80px;
+
+        .home-main-text {
+            font-size: 2.6rem;
+            font-weight: 800;
+            letter-spacing: 6px;
+            color: $primary-color;
+            text-align: center;
+        }
+
+        .home-main-button {
+            width: auto;
+            height: 50px;
+            background-color: $variation-color;
+            border-radius: 6px;
+            opacity: 80%;
+            cursor: pointer;
+
+            a {
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

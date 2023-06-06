@@ -1,0 +1,36 @@
+// Variables
+$main-font: 'Roboto Mono', monospace;
+$primary-color: #fff;
+$secondary-color: #cfebfa;
+$variation-color: #04b9fe;
+$border-color: #cdd2da;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
