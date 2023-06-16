@@ -326,7 +326,7 @@ header .header-icons-container .menu-navegacion a {
 .profile-social-media-container .effect a {
   text-decoration: none !important;
   width: 60px;
-  height: 55px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -495,9 +495,6 @@ footer p {
   }
   main .profile-main-container .profile-container .profile-info-container h2 {
     text-align: start;
-  }
-  main .profile-main-container .profile-social-media-container .effect a {
-    height: 60px;
   }
   main .profile-main-projects .projects-main-container {
     -ms-grid-columns: (1fr)[2];
