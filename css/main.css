@@ -259,6 +259,7 @@ header .header-icons-container .menu-navegacion a {
 .blogs-main .blogs-posts-container .post-container img {
   width: 100%;
   max-height: 265px;
+  border-radius: 6px;
 }
 
 .profile-main-container {
